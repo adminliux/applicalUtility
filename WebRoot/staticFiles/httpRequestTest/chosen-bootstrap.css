@@ -1,0 +1,54 @@
+select.form-control + .chosen-container-single.chosen-container .chosen-single {
+	padding: 6px 12px; border-radius: 4px; border: 1px solid rgb(204, 204, 204); transition:border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; border-image: none; width: 100%; height: 34px; color: rgb(85, 85, 85); line-height: 1.4285; font-size: 14px; vertical-align: middle; display: block; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-image: none; background-color: rgb(255, 255, 255); -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+select.form-control + .chosen-container-single.chosen-container .chosen-single div {
+	top: 4px; color: rgb(0, 0, 0);
+}
+select.form-control + .chosen-container .chosen-drop {
+	margin: 2px 0px 0px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.15); border-image: none; box-shadow: 0px 6px 12px rgba(0,0,0,0.175); background-clip: padding-box; background-color: rgb(255, 255, 255); -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+select.form-control + .chosen-container .chosen-search input[type=text] {
+	padding: 6px 12px; border-radius: 4px; border: 1px solid rgb(204, 204, 204); transition:border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; border-image: none; width: 100%; height: 34px; color: rgb(85, 85, 85); line-height: 1.4285; font-size: 14px; vertical-align: middle; display: block; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-image: none; background-color: rgb(255, 255, 255); -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+select.form-control + .chosen-container .chosen-results {
+	list-style: none; margin: 2px 0px 5px; padding: 5px 0px; font-size: 14px; background-color: rgb(255, 255, 255);
+}
+select.form-control + .chosen-container .chosen-results li {
+	padding: 3px 20px; color: rgb(51, 51, 51); line-height: 1.4285; clear: both; font-weight: normal; display: block; white-space: nowrap; background-image: none;
+}
+select.form-control + .chosen-container .chosen-results li.active-result {
+	padding: 3px 20px; color: rgb(51, 51, 51); line-height: 1.4285; clear: both; font-weight: normal; display: block; white-space: nowrap; background-image: none;
+}
+select.form-control + .chosen-container .chosen-results li:hover {
+	color: rgb(255, 255, 255); text-decoration: none; background-image: none; background-color: rgb(66, 139, 202);
+}
+select.form-control + .chosen-container .chosen-results li.active-result:hover {
+	color: rgb(255, 255, 255); text-decoration: none; background-image: none; background-color: rgb(66, 139, 202);
+}
+select.form-control + .chosen-container .chosen-results li.highlighted {
+	color: rgb(255, 255, 255); text-decoration: none; background-image: none; background-color: rgb(66, 139, 202);
+}
+select.form-control + .chosen-container-multi .chosen-choices {
+	padding: 6px; border-radius: 4px; border: 1px solid rgb(204, 204, 204); transition:border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; border-image: none; width: 100%; color: rgb(85, 85, 85); line-height: 1.4285; font-size: 14px; vertical-align: middle; display: block; min-height: 34px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-image: none; background-color: rgb(255, 255, 255); -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+select.form-control + .chosen-container-multi .chosen-choices li.search-field input[type='text'] {
+	padding: 5px 0px; height: auto;
+}
+select.form-control + .chosen-container-multi .chosen-choices li.search-choice {
+	margin: 0px 6px 0px 0px; padding: 3px 24px 3px 5px; border-radius: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; text-align: center; color: rgb(51, 51, 51); line-height: 1.4285; font-size: 14px; font-weight: normal; vertical-align: middle; white-space: nowrap; cursor: pointer; background-image: none; background-color: rgb(255, 255, 255);
+}
+select.form-control + .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+	top: 8px; right: 6px;
+}
+select.form-control + .chosen-container-active.chosen-container-multi .chosen-choices {
+	border-color: rgb(102, 175, 233); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+select.form-control + .chosen-container-active.chosen-container-single.chosen-container .chosen-single {
+	border-color: rgb(102, 175, 233); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+select.form-control + .chosen-container .chosen-search input[type=text]:focus {
+	border-color: rgb(102, 175, 233); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+select.form-control + .chosen-container-multi .chosen-results li.result-selected {
+	color: rgb(204, 204, 204); display: list-item; cursor: default; background-color: white;
+}

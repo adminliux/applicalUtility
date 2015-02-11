@@ -1,0 +1,222 @@
+.bootstrap-checkbox {
+	border-radius: 3px; border: 1px solid rgb(194, 198, 203); transition:border 0.2s linear; border-image: none; width: 15px; height: 15px; display: inline-block; position: relative; -ms-user-select: none; -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+.check-circle .bootstrap-checkbox {
+	border-radius: 99px; -webkit-border-radius: 99px; -moz-border-radius: 99px;
+}
+.checked.bootstrap-checkbox {
+	border: 1px solid rgb(153, 153, 153); border-image: none;
+}
+.check-default {
+	display: inline-block;
+}
+.check-success {
+	display: inline-block;
+}
+.check-primary {
+	display: inline-block;
+}
+.check-info {
+	display: inline-block;
+}
+.check-warning {
+	display: inline-block;
+}
+.check-danger {
+	display: inline-block;
+}
+.check-default label {
+	top: -4px; font-size: 12px; margin-left: 5px; display: inline-block; position: relative;
+}
+.check-success label {
+	top: -4px; font-size: 12px; margin-left: 5px; display: inline-block; position: relative;
+}
+.check-primary label {
+	top: -4px; font-size: 12px; margin-left: 5px; display: inline-block; position: relative;
+}
+.check-info label {
+	top: -4px; font-size: 12px; margin-left: 5px; display: inline-block; position: relative;
+}
+.check-warning label {
+	top: -4px; font-size: 12px; margin-left: 5px; display: inline-block; position: relative;
+}
+.check-danger label {
+	top: -4px; font-size: 12px; margin-left: 5px; display: inline-block; position: relative;
+}
+.check-success .checked.bootstrap-checkbox {
+	border: 1px solid rgb(0, 144, 217); border-image: none; background-color: rgb(0, 144, 217);
+}
+.check-primary .checked.bootstrap-checkbox {
+	border: 1px solid rgb(10, 166, 153); border-image: none; background-color: rgb(10, 166, 153);
+}
+.check-info .checked.bootstrap-checkbox {
+	border: 1px solid rgb(31, 56, 83); border-image: none; background-color: rgb(31, 56, 83);
+}
+.check-warning .checked.bootstrap-checkbox {
+	border: 1px solid rgb(253, 208, 28); border-image: none; background-color: rgb(253, 208, 28);
+}
+.check-danger .checked.bootstrap-checkbox {
+	border: 1px solid rgb(243, 89, 88); border-image: none; background-color: rgb(243, 89, 88);
+}
+.check-success .bootstrap-checkbox i {
+	color: rgb(255, 255, 255);
+}
+.check-primary .bootstrap-checkbox i {
+	color: rgb(255, 255, 255);
+}
+.check-info .bootstrap-checkbox i {
+	color: rgb(255, 255, 255);
+}
+.check-warning .bootstrap-checkbox i {
+	color: rgb(255, 255, 255);
+}
+.check-danger .bootstrap-checkbox i {
+	color: rgb(255, 255, 255);
+}
+.bootstrap-checkbox i {
+	left: 2px; top: 2px; font-size: 11px; position: absolute;
+}
+.radio label {
+	color: rgb(119, 122, 128); padding-left: 25px; font-size: 13px; margin-right: 15px; margin-bottom: 6px; display: inline-block; position: relative; cursor: pointer;
+}
+.radio input[type=radio] {
+	display: none;
+}
+.radio label::before {
+	border-radius: 99px; border: 1px solid rgb(194, 198, 203); border-image: none; left: 0px; width: 16px; height: 16px; bottom: 1px; margin-right: 10px; display: inline-block; position: absolute; content: ""; background-color: rgb(255, 255, 255);
+}
+.radio label::after {
+	border-radius: 99px; border: 1px solid rgb(111, 123, 138); border-image: none; left: 0px; top: 1px; width: 16px; height: 16px; text-align: center; font-size: 13px; display: inline-block; position: absolute; content: ""; transform: scale(0); background-color: rgb(111, 123, 138); -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0);
+}
+.radio input[type=radio][disabled] + label {
+	opacity: 0.65;
+}
+.checkbox input[type=radio][disabled] + label::after {
+	background-color: rgb(236, 239, 243);
+}
+.radio-success.radio label::after {
+	border: 1px solid rgb(0, 144, 217); border-image: none; background-color: rgb(0, 144, 217);
+}
+.radio-primary.radio label::after {
+	border: 1px solid rgb(10, 166, 153); border-image: none; background-color: rgb(10, 166, 153);
+}
+.radio-info.radio label::after {
+	border: 1px solid rgb(31, 56, 83); border-image: none; background-color: rgb(31, 56, 83);
+}
+.radio-warning.radio label::after {
+	border: 1px solid rgb(253, 208, 28); border-image: none; background-color: rgb(253, 208, 28);
+}
+.radio-danger.radio label::after {
+	border: 1px solid rgb(243, 89, 88); border-image: none; background-color: rgb(243, 89, 88);
+}
+.radio input[type=radio]:checked + label {
+	color: rgb(77, 80, 86);
+}
+.radio input[type=radio]:checked + label::after {
+	transition:transform 0.1s cubic-bezier(0.455, 0.03, 0.215, 1.33); line-height: 18px; transform: scale(0.63); -webkit-transition: transform .1s 0s cubic-bezier(0.455, 0.030, 0.215, 1.330); -webkit-transform: scale(0.63); -moz-transition: transform .1s 0s cubic-bezier(0.455, 0.030, 0.215, 1.330); -o-transition: transform .1s 0s cubic-bezier(0.455, 0.030, 0.215, 1.330); -moz-transform: scale(0.63); -o-transform: scale(0.63);
+}
+.radio input[type=radio]:checked + label::before {
+	border: 1px solid rgb(142, 144, 149); border-image: none;
+}
+.radio-success.radio input[type=radio]:checked + label::before {
+	border: 1px solid rgb(0, 144, 217); border-image: none;
+}
+.radio-primary.radio input[type=radio]:checked + label::before {
+	border: 1px solid rgb(10, 166, 153); border-image: none;
+}
+.radio-info.radio label input[type=radio]:checked + ::before {
+	border: 1px solid rgb(31, 56, 83); border-image: none;
+}
+.radio-warning.radio input[type=radio]:checked + label::before {
+	border: 1px solid rgb(253, 208, 28); border-image: none;
+}
+.radio-danger.radio input[type=radio]:checked + label::before {
+	border: 1px solid rgb(243, 89, 88); border-image: none;
+}
+.checkbox label {
+	transition:border 0.2s linear, color 0.2s linear; color: rgb(119, 122, 128); padding-left: 25px; font-size: 13px; margin-right: 15px; margin-bottom: 6px; display: inline-block; position: relative; cursor: pointer;
+}
+table td .checkbox label {
+	padding-left: 0px;
+}
+table th .checkbox label {
+	padding-left: 0px;
+}
+.star label {
+	transition:border 0.2s linear, color 0.2s linear; font-size: 18px; display: inline-block; position: relative; cursor: pointer;
+}
+.star label::before {
+	transition:border 0.2s linear, color 0.2s linear; left: 0px; top: -4px; color: rgb(151, 163, 179); font-family: "FontAwesome"; font-size: 18px; margin-right: 10px; display: inline-block; position: absolute; content: "\F005";
+}
+.star label {
+	margin-bottom: 10px;
+}
+.star input[type=checkbox] {
+	display: none;
+}
+.star input[type=checkbox]:checked + label::before {
+	color: rgb(255, 210, 0);
+}
+.checkbox label::before {
+	border-radius: 3px; border: 1px solid rgb(194, 198, 203); transition:border 0.2s linear, color 0.2s linear; border-image: none; left: 0px; top: 1.5px; width: 16px; height: 16px; margin-right: 10px; display: inline-block; position: absolute; content: ""; background-color: rgb(255, 255, 255);
+}
+.checkbox label::after {
+	transition:border 0.2s linear, color 0.2s linear; left: 3.8px; top: 0px; width: 16px; height: 16px; font-size: 11px; display: inline-block; position: absolute;
+}
+.checkbox input[type=checkbox] {
+	display: none;
+}
+.checkbox label {
+	margin-bottom: 10px;
+}
+.checkbox label::after {
+	border-radius: 3px;
+}
+.checkbox-circle.checkbox label::after {
+	border-radius: 99px;
+}
+.checkbox-circle.checkbox label::before {
+	border-radius: 99px;
+}
+.checkbox input[type=checkbox]:checked + label::after {
+	font-family: "FontAwesome"; content: "\F00C";
+}
+.checkbox input[type=checkbox]:checked + label {
+	color: rgb(77, 80, 86);
+}
+.checkbox input[type=checkbox][disabled] + label {
+	opacity: 0.65;
+}
+.checkbox input[type=checkbox][disabled] + label::before {
+	background-color: rgb(236, 239, 243);
+}
+.check-success.checkbox input[type=checkbox]:checked + label::before {
+	border: 1px solid rgb(0, 144, 217); border-image: none; background-color: rgb(0, 144, 217);
+}
+.check-success.checkbox input[type=checkbox]:checked + label::after {
+	color: rgb(255, 255, 255);
+}
+.check-primary.checkbox input[type=checkbox]:checked + label::before {
+	border: 1px solid rgb(10, 166, 153); border-image: none; background-color: rgb(10, 166, 153);
+}
+.check-primary.checkbox input[type=checkbox]:checked + label::after {
+	color: rgb(255, 255, 255);
+}
+.check-info.checkbox input[type=checkbox]:checked + label::before {
+	border: 1px solid rgb(31, 56, 83); border-image: none; background-color: rgb(31, 56, 83);
+}
+.check-info.checkbox input[type=checkbox]:checked + label::after {
+	color: rgb(255, 255, 255);
+}
+.check-warning.checkbox input[type=checkbox]:checked + label::before {
+	border: 1px solid rgb(253, 208, 28); border-image: none; background-color: rgb(253, 208, 28);
+}
+.check-warning.checkbox input[type=checkbox]:checked + label::after {
+	color: rgb(255, 255, 255);
+}
+.check-danger.checkbox input[type=checkbox]:checked + label::before {
+	border: 1px solid rgb(243, 89, 88); border-image: none; background-color: rgb(243, 89, 88);
+}
+.check-danger.checkbox input[type=checkbox]:checked + label::after {
+	color: rgb(255, 255, 255);
+}

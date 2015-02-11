@@ -1,0 +1,102 @@
+.colorpicker-saturation {
+	width: 100px; height: 100px; float: left; cursor: crosshair; background-image: url("../../../../images/bootstrap-colorpicker/saturation.png");
+}
+.colorpicker-saturation i {
+	margin: -4px 0px 0px -4px; border-radius: 5px; border: 1px solid rgb(0, 0, 0); border-image: none; left: 0px; top: 0px; width: 5px; height: 5px; display: block; position: absolute; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.colorpicker-saturation i b {
+	border-radius: 5px; border: 1px solid rgb(255, 255, 255); border-image: none; width: 5px; height: 5px; display: block; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.colorpicker-hue {
+	width: 15px; height: 100px; margin-bottom: 4px; margin-left: 4px; float: left; cursor: row-resize;
+}
+.colorpicker-alpha {
+	width: 15px; height: 100px; margin-bottom: 4px; margin-left: 4px; float: left; cursor: row-resize;
+}
+.colorpicker-hue i {
+	background: rgb(0, 0, 0); left: 0px; top: 0px; width: 100%; height: 1px; margin-top: -1px; border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid; display: block; position: absolute;
+}
+.colorpicker-alpha i {
+	background: rgb(0, 0, 0); left: 0px; top: 0px; width: 100%; height: 1px; margin-top: -1px; border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid; display: block; position: absolute;
+}
+.colorpicker-hue {
+	background-image: url("../../../../images/bootstrap-colorpicker/hue.png");
+}
+.colorpicker-alpha {
+	display: none; background-image: url("../../../../images/bootstrap-colorpicker/alpha.png");
+}
+.colorpicker {
+	padding: 4px; border-radius: 4px; left: 0px; top: 0px; margin-top: 1px; z-index: 2500; min-width: 130px; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+.colorpicker::before {
+	line-height: 0; display: table; content: "";
+}
+.colorpicker::after {
+	line-height: 0; display: table; content: "";
+}
+.colorpicker::after {
+	clear: both;
+}
+.colorpicker::before {
+	left: 6px; top: -7px; border-right-color: transparent; border-bottom-color: rgba(0, 0, 0, 0.2); border-left-color: transparent; border-right-width: 7px; border-bottom-width: 7px; border-left-width: 7px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; display: inline-block; position: absolute; content: "";
+}
+.colorpicker::after {
+	left: 7px; top: -6px; border-right-color: transparent; border-bottom-color: rgb(255, 255, 255); border-left-color: transparent; border-right-width: 6px; border-bottom-width: 6px; border-left-width: 6px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; display: inline-block; position: absolute; content: "";
+}
+.colorpicker div {
+	position: relative;
+}
+.colorpicker-with-alpha.colorpicker {
+	min-width: 140px;
+}
+.colorpicker-with-alpha.colorpicker .colorpicker-alpha {
+	display: block;
+}
+.colorpicker-color {
+	background-position: 0px 100%; height: 10px; clear: both; margin-top: 5px; background-image: url("../../../../images/bootstrap-colorpicker/alpha.png");
+}
+.colorpicker-color div {
+	height: 10px;
+}
+.colorpicker-element .input-group-addon i {
+	width: 16px; height: 16px; display: block; cursor: pointer;
+}
+.colorpicker-inline.colorpicker {
+	float: none; display: inline-block; position: relative;
+}
+.colorpicker-horizontal.colorpicker {
+	width: 110px; height: auto; min-width: 110px;
+}
+.colorpicker-horizontal.colorpicker .colorpicker-saturation {
+	margin-bottom: 4px;
+}
+.colorpicker-horizontal.colorpicker .colorpicker-color {
+	width: 100px;
+}
+.colorpicker-horizontal.colorpicker .colorpicker-hue {
+	width: 100px; height: 15px; margin-bottom: 4px; margin-left: 0px; float: left; cursor: col-resize;
+}
+.colorpicker-horizontal.colorpicker .colorpicker-alpha {
+	width: 100px; height: 15px; margin-bottom: 4px; margin-left: 0px; float: left; cursor: col-resize;
+}
+.colorpicker-horizontal.colorpicker .colorpicker-hue i {
+	background: rgb(255, 255, 255); border: currentColor; border-image: none; left: 0px; top: 0px; width: 1px; height: 15px; margin-top: 0px; display: block; position: absolute;
+}
+.colorpicker-horizontal.colorpicker .colorpicker-alpha i {
+	background: rgb(255, 255, 255); border: currentColor; border-image: none; left: 0px; top: 0px; width: 1px; height: 15px; margin-top: 0px; display: block; position: absolute;
+}
+.colorpicker-horizontal.colorpicker .colorpicker-hue {
+	background-image: url("../../../../images/bootstrap-colorpicker/hue-horizontal.png");
+}
+.colorpicker-horizontal.colorpicker .colorpicker-alpha {
+	background-image: url("../../../../images/bootstrap-colorpicker/alpha-horizontal.png");
+}
+.colorpicker-hidden.colorpicker {
+	display: none;
+}
+.colorpicker-visible.colorpicker {
+	display: block;
+}
+.colorpicker-visible.colorpicker-inline {
+	display: inline-block;
+}

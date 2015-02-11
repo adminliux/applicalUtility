@@ -1,0 +1,9 @@
+.ui-video-background {
+	left: 840px; top: 30px; position: absolute;
+}
+.ui-video-background-controls {
+	margin: 0px; padding: 0px 10px;
+}
+.ui-video-background-controls li {
+	padding: 10px; float: left;
+}
